@@ -1,0 +1,399 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+/** ---------------------------------------All button style---------------------------  **/
+.primary-btn{
+  width: 262px;
+  height: 56px;
+  font-size: 18px;
+  border: none;
+  color: #3C354F;
+  border-radius: 10px;
+}
+.second-btn-1{
+  width: 156px;
+  height: 65px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  background-color: #FF42A5;
+  border: none;
+  border-radius: 40px;
+  margin-top: 40px;
+  gap: 24px;
+  text-transform: uppercase;
+}
+.second-btn-2{
+  width: 156px;
+  height: 65px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  background-color: #4EC5F7;
+  border: none;
+  border-radius: 40px;
+  text-transform: uppercase;
+}
+.third-btn{
+  width: 700;
+  font-size: 10px;
+  color: #FF42A5;
+  padding: 10px;
+  border: none;
+  border-radius: 48px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+/** --------------------------------------navbar style--------------------------------- **/
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+span{
+  color: #FF42A5;
+}
+.fa-youtube{
+  width: 33px;
+  height: 24px;
+  color: #F61C0D;
+}
+.fa-tiktok{
+  width: 24px;
+  height: 24px;
+}
+.navbar{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 37px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.navbar li a{
+text-decoration: none;
+margin: 15px;
+}
+.nav-title{
+  margin-right: 200px;
+}
+.hero-list-1{
+  font-size: 20px;
+}
+.hero-list-2{
+  width: 362px;
+  height: 24px;
+}
+.hero-list-1 i{
+  width: 30px;
+  height: 30px;
+  color: rgb(233, 8, 49);
+}
+.fa-download{
+ width: 24px;
+ height: 24px;
+
+}
+/** --------------------------------------Hero section style--------------------------------- **/
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.hero-title-1{
+  font-weight: semibold;
+  font-size: 48px;
+  color: rgba(11, 2, 35, 1);
+}
+.hero-title-2{
+  font-weight: 700;
+  font-size: 95px;
+  background: -webkit-linear-gradient(#F948B2, #8758F1);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ margin-bottom: 24px;
+}
+.hero-image img{
+  width: 719px;
+  height: 681px;
+}
+
+/** ----------------------------------------------hero-section-2 style----------------------- **/
+.hero-section-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamer-title{
+  font-weight: 700;
+  font-size: 48px;
+  background: -webkit-linear-gradient(#F948B2 0%, #8758F1 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+.gamer-description{
+  font-size: 18px;
+  color: rgba(83, 76, 100, 1);
+}
+.purpose{
+  font-size: 16px;
+  color: rgba(83, 76, 100, 1);
+  margin-top: 10px;
+}
+.unleash{
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(83, 76, 100, 1);
+  margin-top: 5px;
+}
+
+/** -----------------------------hero-section-box style-------------------------- **/
+.funny-video-title{
+  font-weight: 700;
+  font-size: 48px;
+  color: rgba(11, 2, 35, 1);
+  text-align: center;
+  margin-bottom: 16px;
+}
+span{
+  background: -webkit-linear-gradient(#F948B2 0%, #8758F1 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+.funny-video-description{
+  font-size: 16px;
+  color: #3C354F;
+  text-align: center;
+}
+.hero-section-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.hero-section-card{
+  width: 342px;
+  height: 484px;
+}
+.hero-section-card{
+  width: 342px;
+  height: 400px;
+}
+.game-install-description{
+  font-size: 20px;
+  color: rgba(83, 76, 100, 1);
+  margin-bottom: 25px;
+}
+
+/** -------------------------------------hero-play-section-4 style------------------------------ **/
+
+.box-1 img{
+  margin-top: 100px;
+  width: 600px;
+  height: 620px;
+}
+.box-2 img{
+  width: 318px;
+  height: 365px;
+  position: relative;
+  right: 100px;
+  bottom: 300px;
+  z-index: 10;
+}
+.play-title{
+  font-weight: 700;
+  font-size: 48px;
+  color: rgba(11, 2, 35, 1);
+}
+.hero-play-section-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 265px;
+}
+.paly-description{
+  font-size: 18px;
+  color: rgba(83, 76, 100, 1);
+}
+/** -------------------------------------hero-play-section-5 style------------------------------ **/
+.box-4 img{
+  width: 600px;
+  height: 620px;
+}
+.box-3 img{
+  width: 318px;
+  height: 365px;
+  position: relative;
+  left: 410px;
+  bottom: 210px;
+  z-index: 10;
+}
+.play-title{
+  font-weight: 700;
+  font-size: 48px;
+  color: rgba(11, 2, 35, 1);
+}
+.hero-play-section-5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 265px;
+}
+.paly-description{
+  font-size: 18px;
+  color: rgba(83, 76, 100, 1);
+}
+.box-3 img{
+  width: 318px;
+  height: 365px;
+  position: relative;
+  left: 410px;
+  bottom: 210px;
+  z-index: 10;
+}
+/** -------------------------------------hero-play-section-6 style------------------------------ **/
+.careers-title{
+font-weight: 700;
+font-size: 48px;
+color: white;
+margin-bottom: 24px;
+}
+.careers-description{
+  font-size: 18px;
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+}
+.hero-play-section-6{
+  width: 1920px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(#FF42A5 0%, #F948B2 100% );
+}
+.part{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 50px;
+}
+.part-1 p{
+  color: white;
+}
+
+/** -----------------------------------------games-type--------------------------- **/
+.games-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 120px;
+}
+.games-type-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.games-image img{
+  width: 60px;
+  height: 60px;
+}
+.games-name{
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(11, 2, 35, 1);
+  padding: 10px;
+}
+.game-type-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 28px;
+  margin-bottom: 120px;
+}
+.games-type-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/** -----------------------------------------footer section style--------------------------- **/
+.foot{
+  width: 1920px;
+  height: 636px;
+  background-color: rgba(11, 2, 35, 1);
+}
+.foot-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 120px;
+}
+.logo-2 img{
+  width: 86px;
+  height: 40px;
+  margin-top: 120px;
+}
+.logo-title{
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+  margin-top: 120px;
+}
+.foot-list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 56px;
+}
+.foot-list, li, a{
+  list-style: none;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+/** -----------------------------------------footer section icon style--------------------------- **/
+.icon-list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 56px;
+}
+.fa-brands{
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 576px) {
+  .navbar{
+    flex-direction: column;
+  }
+  .logo{
+    flex-direction: column;
+  }
+  ul{
+    flex-direction: column;
+  }
+}
